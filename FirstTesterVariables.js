@@ -48,7 +48,7 @@ let meuCarro {
     modelo: 'mercedes gla 200',
     ano: 2027,
     cor: 'preto',
-}
+};
 
 //arrays
 // Nos arrays a contagem dos indices começam do 0
@@ -60,3 +60,5 @@ let meusLivros = [
     'Livro4',
     'Livro5',
 ]
+
+console.log("teste");
