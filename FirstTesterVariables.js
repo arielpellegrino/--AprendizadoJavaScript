@@ -43,7 +43,7 @@ propriedade: valor;
 }
 */
 
-let meuCarro {
+let meuCarro = {
     marca: 'Mercedes',
     modelo: 'mercedes gla 200',
     ano: 2027,
@@ -61,4 +61,19 @@ let meusLivros = [
     'Livro5',
 ]
 
-console.log("teste");
+console.log(meuCarro);
+
+//Criando um objeto
+let ariel = {
+    nome: "Ariel",
+    idade: 27.5,
+    Solteiro: false,
+
+}
+
+let arredondando = Math.round(ariel.idade);
+
+console.log(ariel);
+console.log(arredondando);
+
+console.log(meusLivros[2]);
