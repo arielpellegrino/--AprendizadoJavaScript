@@ -1,4 +1,4 @@
-/*
+
 * {
     margin: 0;
 }
@@ -45,25 +45,27 @@ header {
 
 
 }
-*/
 
+/*
 #elementoPai {
     background: #d4d4d4;
     height: 500px;
     display: flex; 
     flex-direction:row; /* Row, column, row-reverse e column-reverse*/
-   /* flex-wrap:nowrap;Determina se os elemntos filhos vão aceitar ou não a quebra de conteúdo */
+    flex-wrap:nowrap; /*Determina se os elemntos filhos vão aceitar ou não a quebra de conteúdo */
     justify-content:flex-start ;/*Flexstart: Os elemntos começam da esquerda para a direita*/
-  /*  justify-content:flex-end; Flexstart: Os elemntos começam da direta para a esquerda*/
-  /*  justify-content: space-around; Distribui os elemntos proporcionalmente dentro do elemnto pai */
-  /*  justify-content: space-between; Ela começa a distribuir os elemtos do centro PARA as extremidades*/
+    justify-content:flex-end; /*Flexstart: Os elemntos começam da direta para a esquerda*/
+    justify-content: space-around; /* Distribui os elemntos proporcionalmente dentro do elemnto pai */
+   justify-content: space-between; /*Ela começa a distribuir os elemtos do centro PARA as extremidades*/
     align-items: flex-start; /* O align-items ajuda no alinhamento vertical dos nossos items */
     align-items: flex-end; /* Alinha do rodapá para cima*/
     align-items: center ;  /* Alinha no meio do elemento pai*/
     align-items: stretch; /*Esta propriedade alonga os elemntos filhos  */
-
+    align-items: baseline; /* É senvivel a pagina, ele adapta os elementos filhos ao documento*/
+   align-content: ; /*Pesquisar sobre*/
+   flex-flow: ; /*pesquisar sobre */
 }
-
+*/
 
 .elementoFilho {
     height: 100px;
@@ -71,4 +73,28 @@ header {
     color: black;
     -webkit-box-shadow: 0px 2px 8px 01px #000;
     margin: 5px;
+
+    flex-grow: ; /*ocupamento do resto da largura da div */
+    flex-shrink: ; /*encolhe a div */
+    flex-basis: ; /*Define a largura de cada elemento caso ele não tenha */
 }
+
+
+/*Seleciona os "blocos" individualmente
+.elementoFilho:nth-child(1){
+    order: 4;
+}
+
+.elementoFilho:nth-child(2){
+    order: 2;
+}
+
+.elementoFilho:nth-child(3){
+    order: 3;
+}
+
+.elementoFilho:nth-child(4){
+    order: 4;
+}
+
+*/
