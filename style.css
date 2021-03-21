@@ -1,0 +1,74 @@
+/*
+* {
+    margin: 0;
+}
+
+header {
+    height: 77px;
+    max-width: 100%;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.pageUser {
+    width: 165px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: solid 1px #000;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    
+}
+
+.pageUser img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.pageUser  {
+
+}
+
+.pageUser a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+    justify-content: center;
+
+
+}
+*/
+
+#elementoPai {
+    background: #d4d4d4;
+    height: 500px;
+    display: flex; 
+    flex-direction:row; /* Row, column, row-reverse e column-reverse*/
+   /* flex-wrap:nowrap;Determina se os elemntos filhos vão aceitar ou não a quebra de conteúdo */
+    justify-content:flex-start ;/*Flexstart: Os elemntos começam da esquerda para a direita*/
+  /*  justify-content:flex-end; Flexstart: Os elemntos começam da direta para a esquerda*/
+  /*  justify-content: space-around; Distribui os elemntos proporcionalmente dentro do elemnto pai */
+  /*  justify-content: space-between; Ela começa a distribuir os elemtos do centro PARA as extremidades*/
+    align-items: flex-start; /* O align-items ajuda no alinhamento vertical dos nossos items */
+    align-items: flex-end; /* Alinha do rodapá para cima*/
+    align-items: center ;  /* Alinha no meio do elemento pai*/
+    align-items: stretch; /*Esta propriedade alonga os elemntos filhos  */
+
+}
+
+
+.elementoFilho {
+    height: 100px;
+    width: 100px;
+    color: black;
+    -webkit-box-shadow: 0px 2px 8px 01px #000;
+    margin: 5px;
+}
