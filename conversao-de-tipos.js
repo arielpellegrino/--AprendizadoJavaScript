@@ -12,4 +12,5 @@ console.log(n1 + n2, typeof n1, typeof n2, n1);
 n2 = 10;
 n2 = n2.toString();
 
-console.log(typeof n2, n2);
+console.log(n2, n2);
+console.log("TEXTO");
