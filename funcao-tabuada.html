@@ -25,10 +25,14 @@
 
             let msg = '';
             for (let i = 0; i <= 1000; i++) {
-                msg += `${n} x ${i} = ${(n * i)} <br>`;
-                output.innerHTML = msg
+                
+                if (i === 15){
+                    break;
+                }
 
+                msg += `${n} x ${i} = ${(n * i)} <br>`;
             }
+            output.innerHTML = msg
         }
 
 
