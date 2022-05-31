@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // use strict deixa o JS mais seguro
+        // "use strict"
+
+        /* x = 10 */
+        y = 10
+
+        function foo() {
+            "use strict"
+            let x = 20
+        }
+
+        foo()
+        console.log(y)
+/* 
+        function dobrar(n1, n2) {
+            "use strict"
+            return n1 * n1
+        }
+
+        console.log(dobrar(5, 5)) */
+
+        function teste() {
+            "use strict"
+            console.log(this)
+            this.a = "a"
+        }
+
+        teste()
+    </script>
+
+</body>
+
+</html>
