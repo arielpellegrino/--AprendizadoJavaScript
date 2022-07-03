@@ -10,7 +10,6 @@ const mediaCalcula = (n4, n5, n6) => {
 }
 
 console.log(mediaCalcula(2, 6, 4)); */
-
 ///////////////////////////////////////////////
 (function(){
     function calcularMedia(){
