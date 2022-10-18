@@ -13,6 +13,3 @@ const concatenandoTresArrays = arr1.concat(arr2, arr3);
 
 console.log(concatenandoDoisArrays);
 console.log(concatenandoTresArrays);
-
-console.table(concatenandoDoisArrays);
-console.table(concatenandoTresArrays);
