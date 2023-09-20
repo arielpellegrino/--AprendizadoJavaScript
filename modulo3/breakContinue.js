@@ -6,11 +6,17 @@ for (let numero of numeros) {
         continue;
     }
 
+    if(numero == '5'){
+        console.log('5 em string');
+        continue;
+    }
+
     if (numero === 7) {
+        console.log('achei o 7')
         break;
     }
 
 
     console.log(numero);
-
 }
+
